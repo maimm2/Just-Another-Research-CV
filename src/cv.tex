@@ -14,15 +14,18 @@
 \documentclass[localFont,alternative]{yaac-another-awesome-cv}
 \usepackage[en-US]{datetime2}
 
-\name{Sebastin}{Santy}
-\tagline{AI Center Fellow, Microsoft Research}
+
+
+\name{Mai}{Mohamed Eida}
+\tagline{PhD Student, University of Illinois at Urbana Champaign}
 \photo{2cm}{uwseal}
 \socialinfo{
-    \website{sebast.in}
-	\email{hi@sebast.in}
-	\github{sebastinsanty}
-	\scholar{https://scholar.google.com/citations?user=HsyMg08AAAAJ&hl=en}
-	\address{1023, Microsoft Research, \#9 VIGYAN, Lavelle Road, Bangalore, KA, India 560001}
+    \website{maimm2.github.io}
+	\email{maimm2@illinois.edu}
+	\github{maimm2}
+	\linkedin{maimm2}
+	
+	\address{4080, Foriegn Languages Building, 707 S Mathews Ave, Urbana, IL, USA 61801}
 	\vspace{-3mm}
 
 }
@@ -35,18 +38,23 @@
     \DTMlangsetup{showdayofmonth=false}
 	\makecvfooter
 		{\textsc{\selectlanguage{english}\today}}
-		{\textsc{Sebastin Santy}}
+		{\textsc{Mai Mohamed Eida}}
 		{\thepage}
 
-    \input{sections/0_education}
-    \input{sections/1_experience}
-    \input{sections/2_publications}
-    \input{sections/3_projects}
-	\input{sections/talks}
+    \input{src/sections/education}
+    \input{src/sections/work_experience}
+  
+    \input{src/sections/publications}
+    \newpage
+      \input{src/sections/projects}
+	\input{src/sections/presentations}
 	\input{sections/awards}
-	\input{sections/teaching}
-	\input{sections/opensource}
-	\input{sections/service}
+
+	\input{src/sections/coursework}
+	\newpage
+	\input{src/sections/organization}
+		\input{src/sections/languages}
+
     \input{sections/references} 
 
 \end{document}

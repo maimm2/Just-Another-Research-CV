@@ -249,7 +249,7 @@
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
 
-\newcommand*{\website}[1]{\sociallink{\websiteSymbol}{http://www.#1}{#1}}
+\newcommand*{\website}[1]{\sociallink{\websiteSymbol}{http://#1}{#1}}
 
 \newcommand*{\scholar}[1]{\sociallink{\scholarSymbol}{#1}{Google Scholar}}
 
